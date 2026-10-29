@@ -32,6 +32,9 @@ a:visited {
 }
 
 /* Footer disclaimer text to be .5 em*/
+ #disclaimer {
+   font-size: 0.5em;
+}
 
 
 /* Remove bullet points from header navigation links */
@@ -57,9 +60,17 @@ header nav ul {
 
 
 /* All Post's Author's Links Bold and Blue, with no Underline */
+ h3 a {
+   font-weight: bold;
+   color: blue;
+   text-decoration: none;
 
+}
 
 /* Article Paragraph Text should have line height of 200% */
+article p {
+   line-height: 200%;
+}
 
 
 /* The First Letter of each Article be 2em */
